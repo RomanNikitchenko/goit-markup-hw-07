@@ -25,7 +25,6 @@
   --card-border-color: #eeeeee;
   --color4: #afb1b8;
   --color3: #757575;
-  --size: 24px;
 }
 
 body {
@@ -118,35 +117,6 @@ p {
   border-radius: 4px;
   background-color: var(--accent-color);
 }
-
-/* not in those assignments */
-/* .site-nav .current-hover,
-.contact-nav .current-hover {
-  position: relative;
-}
-.site-nav .current-hover::after,
-.contact-nav .current-hover::after {
-  content: ' ';
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  width: 100%;
-  min-height: 4px;
-  border-radius: 4px;
-  background-color: var(--accent-color);
-  transform: scale(0);
-
-  transition-property: transform;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.site-nav .current-hover:hover::after,
-.contact-nav .current-hover:hover::after,
-.site-nav .current-hover:focus::after,
-.contact-nav .current-hover:focus::after {
-  transform: scale(1);
-} */
-/* not in those assignments */
 
 .conteiner .contact-nav {
   margin-left: auto;
