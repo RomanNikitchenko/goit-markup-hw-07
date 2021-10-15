@@ -1,0 +1,16 @@
+@import './utils/variables';
+@import './utils/placeholders';
+@import './utils/mixins';
+@import './base/normalize';
+@import './components/page-header';
+@import './components/site-nav';
+
+//for @import './utils/placeholders';
+.site-nav {
+  @extend %list;
+}
+
+// for @import './utils/mixins';
+.skills-list__title {
+  @include centeredFlex();
+}
