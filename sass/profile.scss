@@ -1,4 +1,65 @@
 @import './utils/variables';
+@import './base/normalize';
 @import './utils/placeholders';
 @import './utils/mixins';
-@import './base/normalize';
+// header
+@import './components/page-header';
+@import './components/main-nav';
+@import './components/logo';
+@import './components/site-nav';
+@import './components/contact-nav';
+// main
+@import './components/filter';
+@import './components/section-title';
+@import './components/works-list';
+@import './components/product';
+@import './components/thumb';
+
+//for @import './utils/placeholders';
+body {
+  @extend %body;
+}
+
+img {
+  @extend %img;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  @extend %teg;
+}
+
+.site-nav,
+.contact-nav,
+.feature-list,
+.skills-list,
+.team-list,
+.social-links,
+.list-clients,
+.contact-footer,
+.filter,
+.works-list {
+  @extend %list;
+}
+
+.conteiner {
+  @extend %conteiner;
+}
+
+.button--primary,
+.filter__button {
+  @extend %button;
+}
+
+.feature-section,
+.team-section,
+.clients-section,
+.skills-section,
+.portfolio-section {
+  @extend %section;
+}

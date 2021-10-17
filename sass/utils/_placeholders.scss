@@ -1,7 +1,7 @@
 /* all lists */
 %body {
-  color: var(--primary-text-color);
-  background-color: var(--bg-color-white);
+  color: $primary-text-color;
+  background-color: $bg-color-white;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
@@ -39,4 +39,9 @@
   border: 1px solid transparent;
   padding: 0;
   margin: 0;
+}
+
+%section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
