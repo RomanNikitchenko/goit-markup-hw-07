@@ -1,0 +1,11 @@
+.logo {
+  font-family: Raleway, cursive;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+
+  &__accent {
+    color: $accent-color;
+  }
+}

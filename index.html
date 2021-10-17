@@ -8,8 +8,6 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <!-- <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"> -->
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
@@ -18,20 +16,20 @@
     <header class="page-header">
         <div class="conteiner page-header__conteiner">
             <!--раздел основной навигации-->
-            <nav class="main-nav conteiner__main-nav">
+            <nav class="main-nav">
                 <!--логотип хедер-->
-                <a href="./index.html" class="logo main-nav__logo">
+                <a href="./index.html" class="logo main-nav__logo main-nav__logo--color">
                     <span class="logo__accent">Web</span>Studio
                 </a>
                 <!-- навигация по сайту -->
-                <ul class="site-nav main-nav__site-nav list">
+                <ul class="site-nav list">
                     <li class="site-nav__item"><a href="./index.html" class="site-nav__link site-nav__link--current">Студия</a></li>
                     <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link">Портфолио</a></li>
                     <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
                 </ul>
             </nav>
             <!--контакты хедер-->
-            <ul class="contact-nav conteiner__contact-nav list">
+            <ul class="contact-nav contact-nav--end list">
                 <li class="contact-nav__item">
                     <a href="mailto:info@devstudio.com" class="contact-nav__link">
                         <svg class="contact-nav__icon" width="16" height="12">
@@ -63,7 +61,7 @@
         <section class="feature-section">
             <div class="conteiner">
                 <!-- этот тег будет скрыт -->
-                <h2 class="section-title section-title--not-displaye">Особенности</h2>
+                <h2 class="section-title conteiner__section-title section-title--not-displaye">Особенности</h2>
 
                 <ul class="feature-list list">
 
@@ -119,19 +117,19 @@
         <!--Чем мы занимаемся-->
         <section class="skills-section">
             <div class="conteiner">
-                <h2 class="section-title">Чем мы занимаемся</h2>
+                <h2 class="section-title conteiner__section-title">Чем мы занимаемся</h2>
 
                 <ul class="skills-list list">
                     <li class="skills-list__item">
-                        <img class="image skills-list__image" src="./images/programming.jpg" alt="Десктопный приложения" width="370">
+                        <img class="skills-list__image" src="./images/programming.jpg" alt="Десктопный приложения" width="370">
                         <h3 class="skills-list__title">Десктопные приложения</h3>
                     </li>
                     <li class="skills-list__item">
-                        <img class="image skills-list__image" src="./images/Adaptive-layout.jpg" alt="мобильные приложения" width="370">
+                        <img class="skills-list__image" src="./images/Adaptive-layout.jpg" alt="мобильные приложения" width="370">
                         <h3 class="skills-list__title">Мобильные приложения</h3>
                     </li>
                     <li class="skills-list__item">
-                        <img class="image skills-list__image" src="./images/design-and-art.jpg" alt="дизайнерские решения" width="370">
+                        <img class="skills-list__image" src="./images/design-and-art.jpg" alt="дизайнерские решения" width="370">
                         <h3 class="skills-list__title">Дизайнерские решения</h3>
                     </li>
                 </ul>
@@ -142,10 +140,9 @@
         <!-- Наша команда -->
         <section class="team-section">
             <div class="conteiner">
+                <h2 class="section-title conteiner__section-title">Наша команда</h2>
 
-                <h2 class="section-title">Наша команда</h2>
-
-                <ul class="team-list list">
+                <ul class="team-list conteiner__team-list list">
 
                     <li class="team-member team-list__team-member">
                         <img class="image" src="./images/imgteam.jpg" alt="Дизайнер продуктов" width="270">
@@ -331,53 +328,53 @@
         <!-- Постоянные клиенты -->
         <section class="clients-section">
             <div class="conteiner">
-                <h2 class="section-title">Постоянные клиенты</h2>
+                <h2 class="section-title conteiner__section-title">Постоянные клиенты</h2>
 
-                <ul class="list-clients list">
+                <ul class="list-clients conteiner__list-clients list">
 
-                    <li class="list-clients__item">
-                        <a class="list-clients__link" href="">
-                            <svg class="list-clients__icon" width="106" height="60">
+                    <li class="item-clients list-clients__item-clients">
+                        <a class="item-clients__link" href="">
+                            <svg class="item-clients__icon" width="106" height="60">
                                 <use href="./images/icons.svg#Logo1"></use> 
                             </svg>
                         </a>
                     </li>
 
-                    <li class="list-clients__item">
-                        <a class="list-clients__link" href="">
-                            <svg class="list-clients__icon" width="106" height="60">
+                    <li class="item-clients list-clients__item-clients">
+                        <a class="item-clients__link" href="">
+                            <svg class="item-clients__icon" width="106" height="60">
                                 <use href="./images/icons.svg#Logo2"></use> 
                             </svg>
                         </a>
                     </li>
 
-                    <li class="list-clients__item">
-                        <a class="list-clients__link" href="">
-                            <svg class="list-clients__icon" width="106" height="60">
+                    <li class="item-clients list-clients__item-clients">
+                        <a class="item-clients__link" href="">
+                            <svg class="item-clients__icon" width="106" height="60">
                                 <use href="./images/icons.svg#Logo3"></use> 
                             </svg>
                         </a>
                     </li>
 
-                    <li class="list-clients__item">
-                        <a class="list-clients__link" href="">
-                            <svg class="list-clients__icon" width="106" height="60">
+                    <li class="item-clients list-clients__item-clients">
+                        <a class="item-clients__link" href="">
+                            <svg class="item-clients__icon" width="106" height="60">
                                 <use href="./images/icons.svg#Logo4"></use> 
                             </svg>
                         </a>
                     </li>
 
-                    <li class="list-clients__item">
-                        <a class="list-clients__link" href="">
-                            <svg class="list-clients__icon" width="106" height="60">
+                    <li class="item-clients list-clients__item-clients">
+                        <a class="item-clients__link" href="">
+                            <svg class="item-clients__icon" width="106" height="60">
                                 <use href="./images/icons.svg#Logo5"></use> 
                             </svg>
                         </a>
                     </li>
 
-                    <li class="list-clients__item">
-                        <a class="list-clients__link" href="">
-                            <svg class="list-clients__icon" width="106" height="60">
+                    <li class="item-clients list-clients__item-clients">
+                        <a class="item-clients__link" href="">
+                            <svg class="item-clients__icon" width="106" height="60">
                                 <use href="./images/icons.svg#Logo6"></use> 
                             </svg>
                         </a>
@@ -394,14 +391,14 @@
     <footer class="page-footer">
         <div class="conteiner page-footer__conteiner">
 
-            <div class="logo-and-contacts">
+            <div>
                 <!--логотип футер-->
-                <a href="./index.html" class="logo logo-and-contacts__logo">
+                <a href="./index.html" class="logo page-footer__logo">
                     <span class="logo__accent">Web</span>Studio
                 </a>
 
                 <!--контакты футер-->
-                <address class="contact-footer logo-and-contacts__contact-footer list">
+                <address class="contact-footer page-footer__contact-footer list">
                     <p class="contact-footer__text">г. Киев, пр-т Леси Украинки, 26</p>
                     <a class="contact-footer__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     <a class="contact-footer__link" href="tel:+380961111111">+38 096 111 11 11</a>
@@ -421,7 +418,7 @@
                             </svg>
                         </a>
                     </li>
-                
+                    
                     <li class="social-links__item social-links__item--top">
                         <a class="social-links__link social-links__link--color" href="">
                             <svg class="social-links__icon" width="20" height="20">

@@ -8,8 +8,6 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <!-- <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"> -->
     <link rel="stylesheet" href="./css/profile.min.css">
 </head>
 
@@ -18,13 +16,13 @@
     <header class="page-header">
         <div class="conteiner page-header__conteiner">
             <!--раздел основной навигации-->
-            <nav class="main-nav conteiner__main-nav">
+            <nav class="main-nav">
                 <!--логотип хедер-->
                 <a href="./index.html" class="logo main-nav__logo">
                     <span class="logo__accent">Web</span>Studio
                 </a>
                 <!-- навигация по сайту -->
-                <ul class="site-nav main-nav__site-nav list">
+                <ul class="site-nav list">
                     <li class="site-nav__item"><a href="./index.html" class="site-nav__link">Студия</a></li>
                     <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link site-nav__link--current">Портфолио</a></li>
                     <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
@@ -57,9 +55,9 @@
         <section class="portfolio-section">
             <div class="conteiner">
                 <!-- этот тег будет скрыт -->
-                <h1 class="section-title section-title--not-displaye">(Кнопки) Фильтр проектов</h1>
+                <h1 class="section-title conteiner__section-title section-title--not-displaye">(Кнопки) Фильтр проектов</h1>
                 <!-- список кнопок -->
-                <ul class="filter list">
+                <ul class="filter conteiner__filter list">
                     <li class="filter__items">
                         <button class="button filter__button" type="button">Все</button>
                     </li>
@@ -78,7 +76,7 @@
                 </ul>
                 
                 <!-- список проектов -->
-                <ul class="works-list list">
+                <ul class="works-list conteiner__works-list list">
 
                     <li class="product works-list__product">
                         <a class="product__link" href="">
@@ -233,14 +231,14 @@
     <footer class="page-footer">
         <div class="conteiner page-footer__conteiner">
     
-            <div class="logo-and-contacts">
+            <div>
                 <!--логотип футер-->
-                <a href="./index.html" class="logo logo-and-contacts__logo">
+                <a href="./index.html" class="logo page-footer__logo">
                     <span class="logo__accent">Web</span>Studio
                 </a>
     
                 <!--контакты футер-->
-                <address class="contact-footer logo-and-contacts__contact-footer list">
+                <address class="contact-footer page-footer__contact-footer list">
                     <p class="contact-footer__text">г. Киев, пр-т Леси Украинки, 26</p>
                     <a class="contact-footer__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     <a class="contact-footer__link" href="tel:+380961111111">+38 096 111 11 11</a>

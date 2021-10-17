@@ -1,6 +1,42 @@
 /* all lists */
+%body {
+  color: var(--primary-text-color);
+  background-color: var(--bg-color-white);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+
+%img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+%teg {
+  margin: 0;
+}
+
 %list {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+%conteiner {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+%button {
+  color: $title-text-color;
+  background-color: $bg-color-light;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 0;
+  margin: 0;
 }
