@@ -26,6 +26,10 @@
 @import './components/contact-footer';
 @import './components/our-social-networks';
 @import './components/form-footer';
+// beckdrop
+@import './components/beckdrop';
+@import './components/button-close';
+@import './components/modal-form';
 
 //for @import './utils/placeholders';
 body {
@@ -76,7 +80,7 @@ p {
   @extend %section;
 }
 
-// for @import './utils/mixins';
-.skills-list__title {
-  @include centeredFlex();
-}
+// // for @import './utils/mixins';
+// .skills-list__title {
+//   @include centeredFlex();
+// }
