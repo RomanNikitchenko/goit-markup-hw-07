@@ -18,27 +18,27 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+      fill: $accent-color;
+    }
   }
 
   &__link--current {
     color: $accent-color;
     position: relative;
-  }
 
-  &__link--current::after {
-    content: ' ';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    width: 100%;
-    min-height: 4px;
-    border-radius: 4px;
-    background-color: $accent-color;
-  }
-
-  &__link:hover,
-  &__link:focus {
-    color: $accent-color;
-    fill: $accent-color;
+    &::after {
+      content: ' ';
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      width: 100%;
+      min-height: 4px;
+      border-radius: 4px;
+      background-color: $accent-color;
+    }
   }
 }

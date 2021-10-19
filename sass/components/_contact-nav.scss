@@ -20,16 +20,15 @@
     transition-property: color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
 
-  &__link:hover,
-  &__link:focus {
-    color: $accent-color;
-    fill: $accent-color;
-  }
-
-  &__icon {
-    margin-right: 10px;
+    &:hover,
+    &:focus {
+      color: $accent-color;
+      fill: $accent-color;
+    }
+    .contact-nav__icon {
+      margin-right: 10px;
+    }
   }
 }
 .contact-nav--end {
