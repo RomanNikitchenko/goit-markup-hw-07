@@ -4,3 +4,6 @@
   align-items: $align-items;
   justify-content: $justify-content;
 }
+.skills-list__title {
+  @include centeredFlex();
+}
